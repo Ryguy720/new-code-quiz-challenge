@@ -1,0 +1,29 @@
+header{
+    background-color: blue;
+    color: aliceblue;
+    display: block;
+    padding: 5px;
+    margin: -10px;
+    text-align: center;
+  }
+  
+  
+  #countdisply{
+    display: flex;
+    align-items: flex-end;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: bolder;
+  }
+  
+  #Question1, #Question2, 
+  #Question3, #Question4{
+  visibility:hidden;
+  font-weight: bold;
+  list-style-type: upper-alpha;
+  display: flex;
+  flex-direction: column;
+  
+  
+  }
+  

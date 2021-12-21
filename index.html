@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="Assets/Style.css" />
+</head>
+<body>
+    <header>
+        <div class="large-font"><h1>Coding Quiz</h1></div>
+        
+      </header>
+    
+      <main>
+        <section>
+          <div>
+            <div class="large-font" id="countdisply">Time: <span id="countdown"> 0 </span> </div>
+            <ol id="Question1"> Why does JavaScript and Java have a similar name?
+              <div></div>  
+                
+                <button class="Q1_Answers" id="Q1_A" value="False"><li>JavaScript is a stripped-down version of Java</li></button>
+                
+                <button class="Q1_Answers" id="Q1_B" value="True"><li>JavaScript’s syntax is loosely based on Java’s</li></button>
+                
+                <button class="Q1_Answers" id="Q1_C" value="False"><li>They both originated on the island of Java</li></button>
+                
+                <button class="Q1_Answers" id="Q1_D" value="False"><li>None of the above</li></button>
+            </ol>
+          </div>
+          <div>
+            <ol id="Question2">When a user views a page containing a JavaScript program, which machine actually executes the script?
+              <div></div>
+              
+              <button class="Q2_Answers" id="Q2_A" value="True"><li>The User’s machine running a Web browser</li></button>
+              
+              <button class="Q2_Answers" id="Q2_B" value="False"><li>The Web server</li></button>
+              
+              <button class="Q2_Answers" id="Q2_C" value="False"><li>A central machine deep within Netscape’s corporate offices</li></button>
+              
+              <button class="Q2_Answers" id="Q2_D" value="False"><li>None of the above</li></button>
+            </ol> 
+          </div>
+          <div>
+            <ol id="Question3">Using _______ statement is how you test for a specific condition
+              <div></div>
+              
+              <button class="Q3_Answers" id="Q3_A" value="False"><li>Select</li></button>
+              
+              <button class="Q3_Answers" id="Q3_B" value="False"><li>Switch</li></button>
+              
+              <button class="Q3_Answers" id="Q3_C" value="False"><li>For</li></button>
+              
+              <button class="Q3_Answers" id="Q3_D" value="True"><li>If</li></button>
+            </ol>
+          </div> 
+          <div>
+            <ol id="Question4">The _______ method of an Array object adds and/or removes elements from an array.
+              <div></div>
+              
+              <button class="Q4_Answers" id="Q4_A" value="False"><li>Reverse</li></button>
+              
+              <button class="Q4_Answers" id="Q4_B" value="False"><li>Shift</li></button>
+              
+              <button class="Q4_Answers" id="Q4_C" value="False"><li>Slice</li></button>
+              
+              <button class="Q4_Answers" id="Q4_D" value="True"><li>Splice</li></button>
+            </ol>
+            </div>
+          </section>
+        </main>
+          
+        
+        <section id= "scores">
+          <h2>Score <span id="results"></span></h2>
+        </section>
+    
+      
+          <footer>
+            <form action="Assets\script.js">
+              <label for="user_initials"> Initials:</label>
+              <input type="text" id="initials" name="initials"> 
+            </form>
+          <button id="start-button">Start</button>
+          <button id="Save_user">Save</button>
+          <button class="reset-button">Reset</button>
+        </footer>
+    
+      <script src="Assets\script.js"></script>
+    
+</body>
+</html>
